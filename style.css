@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.main{
+    width: 100%;
+    height: 109vh;
+    background: linear-gradient(to top,rgba(0,0,0,0.75),rgba(0,0,0,0.75),url(2.jpg));
+    background-size:cover;
+    background-position:center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:#fff;
+}
+.contenth1{
+    font-size: 70px;
+    margin-top: 25px
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.content a{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 24px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    background: transparent;
+    color:#fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+background: #009688;
+height: 100%;
+width: 0;
+border-radius: 25px;
+position: absolute;
+left: 0;
+bottom: 0;
+z-index: -1;
+transition: 0.5s;
+}
+.content a:hover span{
+    width: 100%;
+}
+.content a:hover{
+    border:none
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e; 
+    color: white;
+    line-height: 1.6;
+}
+.about-img {
+    width: 100%;
+    height: 300px;
+    background-image: url('4.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    position: relative;
+}
+
+.about-text {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff; 
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #fff; 
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #ddd;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+body[style] {
+    background-image: url('4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: #1a1a2e; 
+}
+
+footer {
+    background-color:#fff; 
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.features h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #009688;
+}
+.feature text p{
+padding: 0 20px;
+text-align: initial;
+}
+.resources{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.resourcesh2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.resources p{
+    color: #bb1919;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.resource-categories{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.resource-card{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius:10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+box-sizing: border-box;
+transition: 0.5s;
+}
+.resource-categories{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #000;
+}
+.resource-card:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+
+}
+.helplines {
+    background-color: #e9f7e3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.helplines p{
+    color: #97f119;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.helplines h2 {
+    color: #4CAF50;
+}
+
+.helplines ul {
+    list-style: none;
+    padding: 0;
+}
+
+.helplines ul li {
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+
+.helplines ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.helplines ul li a:hover {
+    text-decoration: underline;
+}
+.find-therapist {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.find-therapist h2 {
+    color: #333;
+}
+.find-therapist p{
+       color: #6622ab;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+    }
+}
+
+.find-therapist button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.find-therapist button:hover {
+    background-color: #45a049;
+}
+.emergency-assistance {
+    background-color: #ffebee;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-left: 5px solid red;
+}
+
+.emergency-assistance h2 {
+    color: #d32f2f;
+}
+.emergency-assistance p{
+    color: #1f6dda;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.emergency-assistance ul {
+    list-style: none;
+    padding: 0;
+}
+
+.emergency-assistance ul li {
+    font-size: 1.1em; 
+    margin: 10px 0;
+    color: blue;
+}
+
+.emergency-assistance ul li strong {
+    color: #d32f2f;
+}
+.online-therapy {
+    background-color: #e0f7fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.online-therapy h2 {
+    color: #00796b;
+}
+.online-therapy p{
+    color: hsl(18, 84%, 45%);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.online-therapy ul {
+    list-style: none;
+    padding: 0;
+}
+
+.online-therapy ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.online-therapy ul li a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+.online-therapy ul li a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color:#fff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: rgb(59, 7, 7);
+    text-decoration: none;
+}
+.helplines{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+   text-align: center;
+}
+.helplines img{
+    width: 50%;
+   border-radius: 10px; 
+}
+.find-therapist{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+   text-align: center;
+}
+.find-therapist img{
+    width: 50%;
+   border-radius: 10px; 
+}
+.emergency-assistance{ 
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+   text-align: center;
+}
+.emergency-assistance img{
+    width: 50%;
+   border-radius: 10px; }
+.online-therapy{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+   text-align: center;
+}
+.online-therapy img{
+    width: 50%;
+   border-radius: 10px;
+
+}
+.tools{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.tool-category{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.tool-category img{
+    width: 50%;
+    border-radius: 10px;
+}
+.tools h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.tool-category h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #d71d1d; 
+}
+
+.tool-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tool-category ul li {
+    margin-bottom: 12px;
+}
+
+.tool-category ul li a {
+    color:#d71d1d;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.tool-category ul li a:hover {
+    color: #1e7e34; 
+    transform: scale(1.05);
+}
+.contact {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4CAF50; 
+    margin-bottom: 20px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+form input, form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #4CAF50; 
+    outline: none;
+}
+
+form button {
+    padding: 15px;
+    font-size: 1.1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #388e3c; 
+}
+.emergency-contacts {
+    background-color: #f0f8ff; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.emergency-contacts h3 {
+    font-size: 2rem;
+    color: #4CAF50; 
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.emergency-contacts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.emergency-contacts ul li {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.emergency-contacts ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.emergency-contacts ul li a:hover {
+    color: #1e7e34;
+}
+
+footer {
+    background-color: #9b59b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+footer p {
+    font-size: 1rem;
+    color: white;
+}
